@@ -93,9 +93,198 @@
     </div>
    
 
+    <h1>Formulario</h1>
+    <caption>Formulário</caption><br /><br />
+           <form>
+              Primeiro Nome: <br /> <input type="text" name="name" id="txtnome"><br /><br />
+              Sobrenome: <br /> <input type="text" name="sobrename" id="txtsobrenome">
+           </form>
+
+   <br />
+
+        <caption>Comentários</caption>
+           <form>
+                <textarea rows="5" cols="30"></textarea><br />
+                <button type="submit">Enviar</button>
+
+            </form>
+
+     <br />
+   <!--FORMULÁRIO ATIVO-->
+     <fieldset>
+          <legend>Formulário</legend><br />
+            <form>
+               Primeiro Nome: <input type="text" name="name" id="txtnome"><br /><br />
+               Sobrenome: <input type="text" name="sobrename" id="txtsobrenome">
+            </form>
+
+         <br />
+
+            <form>
+               E-mail:
+               <input type="email" required multiple>
+            </form>
+
+       <br />
+  
+            <form>
+                Data de Nascimento
+                <input type="date" name="nasc" placeholder="dd/mm/aaaa"><br /><br />
+                 <button type="submit">Enviar</button>
+             </form>
+   </fieldset>
+
+      <br />
+   <!--FORMULÁRIO INATIVO-->
+
+   <fieldset>
+         <legend>Formulário</legend><br />
+            <form>
+                Primeiro Nome: <input type="text" name="name" id="txtnome" disabled=""><br /><br />
+                 Sobrenome: <input type="text" name="sobrename" id="txtsobrenome" disabled="">
+            </form>
+
+      <br />
+
+      <br />
+
+        <form>
+            E-mail:
+            <input type="email" required multiple disabled="">
+         </form>
+
+      <br />
+
+       <form>
+           Data de Nascimento
+           <input type="date" name="nasc" placeholder="dd/mm/aaaa" disabled=""><br /><br />
+           <button type="submit" disabled="">Enviar</button>
+         </form>
+     </fieldset>
+
+     <div>
+        <figure>
+            <img src="https://i.postimg.cc/K8hTkt6B/estudantes.jpg">
+            <figcaption>Fig.1 Figura de Estudantes</figcaption>
+        </figure>
+
+    </div>
+
+    <br>
+
+    <div>
+
+        Opção usando um input tipo CHECKBOX (Caixa de checagem)... <br>
+        <form>
+            <br>
+            <input type="checkbox" name="Resposta" value="Voce tem um carro?">Voce tem um carro?
+            <br>
+            <input type="checkbox" name="Resposta" value="Voce tem uma bicicleta?">Voce tem uma bicicleta?
+            <br>
+            <input type="checkbox" name="Resposta" value="Voce tem uma moto?">Voce tem uma moto?
+
+        </form>
+    
+    </div>
+
+    <br>
+
+    <div>
+
+        Opção usando um input tipo RADIO (Botão tipo radio)... 
+        <form>
+            <br>
+            Por favor selecione uma linguagem de marcação/programação favorita:<br>
+            <br>
+            <input type="radio" name="Linguagem" value="HTML">HTML
+            <br>
+            <input type="radio" name="Linguagem" value="CSS">CSS
+            <br>
+            <input type="radio" name="Linguagem" value="JavaScript">JavaScript<brdd>
+            <br>
+
+        </form>
+
+        <form>
+            Por favor selecione sua Idade<br>
+            <br>
+
+            <input type="radio" name="Idade" value="13 - 30">13 - 30
+            <br>
+            <input type="radio" name="Idade" value="31 - 60">31 - 60
+            <br>
+            <input type="radio" name="Idade" value="61 - 90">61 - 90<br>
+            <br>
+        </form>
+        
+        <input type="submit" value=" Enviar"/>
+
+    </div>
+
+    <br>
+
+    <div>
+        Opção usando um input tipo PASSWORD (Senha)...
+        
+        <input type="password" name="confirmacao" required="">
+
+    </div>
+
+    <br>
+
+    <div>
+
+        Opção usando um input tipo COLOR (Cores)...<br>
+        <br>
+        <input type="color" name="cor" value="#ffffff">
+        <input type="color" name="cor" value="#ffe6e6">
+        <input type="color" name="cor" value="#ffcccc">
+        <input type="color" name="cor" value="#ffb3b3">
+        <input type="color" name="cor" value="#ff9999">
+        <input type="color" name="cor" value="#ff8080">
+        <input type="color" name="cor" value="#ff6666">
+        <input type="color" name="cor" value="#ff4d4d">
+        <input type="color" name="cor" value="#ff3333">
+        <input type="color" name="cor" value="#ff1a1a">
+
+    </div>
+
+    <br>
+
+    <div>
+
+        Opção usando um input tipo NUMBER (Número)... <br>
+        <br>
+        Data de Nascimeto <br>
+        <input type="number" name="anoNascimeto" required="" min="1910" max="2026" step="1">
+
+    </div>
+
+    <br>
+
+    <div>
+
+        Input Range
+        <form>
+
+            <input type="range" name="barra"    required
+                    min="0"     max="5000"      step="100">    
+
+        </form>
+
+    </div>
+
+    <br>
+
+    <div>
+        Relogio
+        <form>
+            <input type="time"  name="horario" required>
+        </form>
+
+    </div>
     <footer>
         <p>Autor: Mirella Sofia</p>
         <p><a href="sofiasmirella@gmail.com">praescola32@gmail.com</a></p>
     </footer>
 </body>
-</html>
