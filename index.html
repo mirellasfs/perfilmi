@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil da Mi</title>
 </head>
 <style>
@@ -94,7 +95,8 @@
    
 
     <h1>Formulario</h1>
-    <caption>Formulário</caption><br /><br />
+    <caption>Um tipo de FORMULÁRIO - <color id="colorA">A</color></caption><br /><br />
+    <color id="colorA">
            <form>
               Primeiro Nome: <br /> <input type="text" name="name" id="txtnome"><br /><br />
               Sobrenome: <br /> <input type="text" name="sobrename" id="txtsobrenome">
@@ -108,11 +110,13 @@
                 <button type="submit">Enviar</button>
 
             </form>
+            </color>
 
      <br />
    <!--FORMULÁRIO ATIVO-->
      <fieldset>
-          <legend>Formulário</legend><br />
+          <legend>Outro tipo de FORMULÁRIO - <color id="colorB">B</color> - ATIVO sendo que dá pra escrever dentro dele:</legend><br />
+          <color id="colorB">
             <form>
                Primeiro Nome: <input type="text" name="name" id="txtnome"><br /><br />
                Sobrenome: <input type="text" name="sobrename" id="txtsobrenome">
@@ -132,13 +136,15 @@
                 <input type="date" name="nasc" placeholder="dd/mm/aaaa"><br /><br />
                  <button type="submit">Enviar</button>
              </form>
+            </color>
    </fieldset>
 
       <br />
    <!--FORMULÁRIO INATIVO-->
 
    <fieldset>
-         <legend>Formulário</legend><br />
+         <legend>Outro tipo de FORMULÁRIO - <color id="colorC">C</color> - INATIVO sendo que não dá pra escrever dentro dele:</legend><br />
+         <color id="colorC">
             <form>
                 Primeiro Nome: <input type="text" name="name" id="txtnome" disabled=""><br /><br />
                  Sobrenome: <input type="text" name="sobrename" id="txtsobrenome" disabled="">
@@ -160,11 +166,12 @@
            <input type="date" name="nasc" placeholder="dd/mm/aaaa" disabled=""><br /><br />
            <button type="submit" disabled="">Enviar</button>
          </form>
+        </color>
      </fieldset>
 
      <div>
         <figure>
-            <img src="https://i.postimg.cc/K8hTkt6B/estudantes.jpg">
+            <img src="https://i.postimg.cc/K8hTkt6B/estudantes.jpg" alt="Trulli" style="width:100%"> <br>
             <figcaption>Fig.1 Figura de Estudantes</figcaption>
         </figure>
 
