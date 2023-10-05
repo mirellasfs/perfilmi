@@ -3,321 +3,317 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Perfil da Mi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">  
+    <title>Perfil do Mirella</title>
 </head>
-<style>
-    table, th, td {
-    border:1px solid black;
-    }
-</style>
 <body>
-    <h1>Este será o meu perfil descrito na matéria Interface para Web I, segundo bimestre do curso internet para informática</h1>
-    <div id="imagem">
-        <img src="https://i.postimg.cc/L8jcdSrL/Remini20220119045910764.jpg">
-    </div>
+    <div class="container">
+    <!--REFERE-SE AO TEMA 06 – CSS (Cascating Styles Sheets – Folhas de Estilo em Cascata)-->
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-    
-    <div>
-        <p id="centro">algo sobre mim...</p>
-        <table>
-            <tr>
-                <th>NOME</th>
-                <th>IDADE</th>
-                <th>COMIDA FAVORITA</th>
-                <th>FILME FAVORITO</th>
-                <th>SERIE FAVORITA</th>
-            </tr>
-            <tr>
-                <td>Mirella Sofia</td>
-                <td>17 anos</td>
-                <td>Pamonha</td>
-                <td>Por Lugares Incríveis</td>
-                <td>Vis A Vis</td>
-            </tr>
-        </table>
-    </div>
+    <!--REFERE-SE AO TEMA 06 – CSS (Cascating Styles Sheets – Folhas de Estilo em Cascata)-->  
+       
+            <p id="cabecalho">Este será o meu perfil descrito na matéria <i>Interface para Web I</i>, 3º Bimestre do curso INFNET.</p>
+       
+        <main>              
+                        <div id="imagem">
+                            <img src="https://i.postimg.cc/vZ7B8j0w/Whats-App-Image-2023-09-01-at-07-12-06-removebg-preview.png" alt="Sua Imagem">
+                        </div>
+                <!--<img src="https://i.postimg.cc/FHvjm2kB/mr-bean-cke-removebg-preview.png" alt="Perfil Mirella">-->
+                <!--<img src="https://i.postimg.cc/kM2jgCwY/barbie.jpg" alt="Perfil Mirella">-->          
+               
+                <p class="centro">Algo sobre mim...</p>    
+                <table id="tabela" border="1">
+                        <tbody>
+                           
+                            <!--<tr style="text-transform: uppercase; font-weight: bold; color:  #c26861; ">-->                                                          
+                                <tr>                                                                                                                
+                                    <th>Nome</th>
+                                    <th>Idade</th>
+                                    <th>Comida</th>
+                                    <th>Filme</th>
+                                    <th>Serie</th>
+                                </tr>                                                            
+                            <tr id="eu">
+                                    <td>Mirella</td>
+                                    <td>17</td>
+                                    <td>Pamonha</td>
+                                    <td>Jumanji</td>
+                                    <td>Bom dia, Veronica</td>
+                                </tr>
+                        </tbody>
+                    </table><br />
+                <div>
+                    <p class="centro">ALGUMAS TAGS HTML QUE APRENDI NO CURSO</p>
+                    <table id="tabela" border="1">
+                        <tbody>                          
+                                <tr>
+                                    <th>h1</th>
+                                    <th>table</th>
+                                    <th>body</th>
+                                    <th>caption</th>
+                                    <th>tr</th>
+                                </tr>
+                                <tr>
+                                    <td>&lttd&gt</td>
+                                    <td>&ltmain&gt</td>
+                                    <td>&ltbody&gt</td>
+                                    <td>&ltcite&gt</td>
+                                    <td>&ltcode&gt</td>
+                                </tr>
+                                <tr>
+                                    <td>&lta&gt</td>
+                                    <td>&ltabbr&gt</td>
+                                    <td>&ltarea&gt</td>
+                                    <td>&ltarticle&gt</td>
+                                    <td>&ltaside&gt</td>
+                                </tr>
+                                <tr>
+                                    <td>&ltaudio&gt</td>
+                                    <td>&ltdl&gt</td>
+                                    <td>&ltdt&gt</td>
+                                    <td>&ltfigure&gt</td>
+                                    <td>&ltframe&gt</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&ltfont&gt</td>
+                                        <td>&lth1&gt</td>
+                                        <td>&lth6&gt</td>
+                                        <td>&lthead&gt</td>
+                                        <td>&ltid=”…“&gt</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&ltstyle=”…” &gt</td>
+                                        <td>&lttitle=”…”&gt</td>
+                                        <td>&ltalt=”…”gt</td>
+                                        <td>&ltalign=”…”&gt</td>
+                                        <td>&ltwidth=”…”&gt</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&ltheight=”…”&gt</td>
+                                        <td>&ltmain&gt&lt/main&gt</td>
+                                        <td>&ltfooter&gt&lt/footer&gt</td>
+                                        <td>&ltdiv&gt&lt/div&gt</td>
+                                        <td>&ltsection&gt&lt/section&gt</td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div><hr/>
+                    <p>Um tipo de <b>FORMULÁRIO</b> - <color><a>A</a></color></p>
 
-    <div>
-        <p id="centro">algumas tags html...</p>
-        <table>
-            <tr>
-                <th>H1</th>
-                <th>TABLE</th>
-                <th>BODY</th>
-                <th>CAPTION</th>
-                <th>TR</th>
-            </tr>
-            <tr>
-                <td>&lt;td&gt;</td>
-                <td>&lt;main&gt;</td>
-                <td>&lt;body&gt;</td>
-                <td>&lt;cite&gt;</td>
-                <td>&lt;code&gt;</td>
-            </tr>
-            <tr>
-                <td>&lt;a&gt;</td>
-                <td>&lt;abbr&gt;</td>
-                <td>&lt;area&gt;</td>
-                <td>&lt;article&gt;</td>
-                <td>&lt;aside&gt;</td>
-            </tr>
-            <tr>
-                <td>&lt;audio&gt;</td>
-                <td>&lt;dl&gt;</td>
-                <td>&lt;dt&gt;</td>
-                <td>&lt;figure&gt;</td>
-                <td>&lt;frame&gt;</td>
-            </tr>
-            <tr>
-                <td>&lt;font&gt;</td>
-                <td>&lt;h1&gt;</td>
-                <td>&lt;h6&gt;</td>
-                <td>&lt;head&gt;</td>
-                <td>&lt;id="..."&gt;</td>
-            </tr>
-            <tr>
-                <td>&lt;style="..."&gt;</td>
-                <td>&lt;title="..."&gt;</td>
-                <td>&lt;alt="..."&gt;</td>
-                <td>&lt;align="..."&gt;</td>
-                <td>&lt;width="..."&gt;</td>
-            </tr>
-            <tr>
-                <td>&lt;height="..."&gt;</td>
-                <td>&lt;main&gt;&lt;/main&gt;</td>
-                <td>&lt;footer&gt;&lt;/footer&gt;</td>
-                <td>&lt;div&gt;&lt;/div&gt;</td>
-                <td>&lt;section&gt;&lt;/section&gt;</td>
-            </tr>
-        </table>
-    </div>
-   
+                    <div id="formularioa">
+                        <form action="/#"><br />
+                            <label for="pnome">Primeiro Nome:</label><br>
+                            <input type="text" id="pnome" nome="pnome" value="Mirella"><br><br>
+                            <label for="unome">Sobrenome:</label><br>
+                            <input type="text" id="unome" name="unome" value="Semião"><br>
+                                   
+                                <p>Comentários:<small><br />Não precisa comentar, é só um exemplo:</small></p>
+                                    <textarea rows="5" cols="30"></textarea><br />
+                                    <input type="submit" value="Enviar">
+                        </form><hr />
+                    </div>
+                    <p>Outro tipo de <b>FORMULÁRIO</b> - <color><b>B</b></color></b> - <b>ATIVO</b> sendo que dá pra escrever dentro dele:</p>
+                    <div id="formulariob">
+                        <form action="/#">
+                            <fieldset enabled>
+                            <legend>Formulário do Mirella:</legend>
+                                <label for="pnome">Primeiro nome:</label>
+                                <input type="text" id="pnome" name="pnome"><br><br>
+                                <label for="unome">Último nome:</label>
+                                <input type="text" id="unome" name="unome"><br><br>
+                                <label for="email">E-mail:</label>
+                                <input type="email" id="email" name="email"><br><br>
+                                <label for="niver">Data Aniversário:</label>
+                                <input type="date" id="niver" name="niver"><br><br>
+                                <input type="submit" value="Enviar">
+                            </fieldset>
+                        </form><BR/>
+                    </div>
+                    <p>Outro tipo de <b>FORMULÁRIO</b> - <color><c>B</c></color> - <b>INATIVO</b> sendo que não dá pra escrever dentro dele:</p>
+                    <div id="formularioc">
+                        <form action="/#">
+                            <fieldset disabled>
+                                <legend>Formulário do Mirella:</legend>
+                                    <label for="pnome">Primeiro nome:</label>
+                                    <input type="text" id="pnome" name="pnome"><br><br>
+                                    <label for="unome">Último nome:</label>
+                                    <input type="text" id="unome" name="unome"><br><br>
+                                    <label for="email">E-mail:</label>
+                                    <input type="email" id="email" name="email"><br><br>
+                                    <label for="niver">Data Aniversário:</label>
+                                    <input type="date" id="niver" name="niver"><br><br>
+                            </fieldset>
+                        </form>
+                    </div>
+                   
+                    <p>Nos estamos acostumado a ver a tag &ltimg&gt hoje vamos aprender mais um elemento, é o &ltfigure&gt e o &ltfigcaption&gt.</p>
+                    <p>Um é usado para imagem e outro para colocar uma espécie de informação desta imagem. Vejamos...</p>
 
-    <h1>Formulario</h1>
-    <caption>Um tipo de FORMULÁRIO - <color id="colorA">A</color></caption><br /><br />
-    <color id="colorA">
-           <form>
-              Primeiro Nome: <br /> <input type="text" name="name" id="txtnome"><br /><br />
-              Sobrenome: <br /> <input type="text" name="sobrename" id="txtsobrenome">
-           </form>
 
-   <br />
+                    <figure>
+                        <img src="https://i.postimg.cc/VsS8Q3tm/estudantes.jpg" alt="Trulli" style="width:100%">
+                        <figcaption>Fig.1 - Estudantes.</figcaption>
+                    </figure><br />
 
-        <caption>Comentários</caption>
-           <form>
-                <textarea rows="5" cols="30"></textarea><br />
-                <button type="submit">Enviar</button>
 
-            </form>
-            </color>
+                    <p>Opção usando um input tipo <b>CHECKBOX</b> (Caixa de checagem)...</p>
 
-     <br />
-   <!--FORMULÁRIO ATIVO-->
-     <fieldset>
-          <legend>Outro tipo de FORMULÁRIO - <color id="colorB">B</color> - ATIVO sendo que dá pra escrever dentro dele:</legend><br />
-          <color id="colorB">
-            <form>
-               Primeiro Nome: <input type="text" name="name" id="txtnome"><br /><br />
-               Sobrenome: <input type="text" name="sobrename" id="txtsobrenome">
-            </form>
+                    <div>
+                        <input type="checkbox" id="veiculo" name="veiculo" value="Carro">
+                        <label for="veiculo">Voçe tem um carro?</label><br>
+                        <input type="checkbox" id="veiculo1" name="veiculo1" value="Bicicleta" checked>
+                        <label for="veiculo1">Voçe tem um bicicleta?</label><br>
+                        <input type="checkbox" id="veiculo2" name="veiculo2" value="Moto">
+                        <label for="veiculo2">Voçe tem um moto?</label><br>
+                    </div><hr/>
 
-         <br />
+                    <p>Opção usando um input tipo <b>RADIO</b> (Botão tipo radio)...</p>
 
-            <form>
-               E-mail:
-               <input type="email" required multiple>
-            </form>
+                    <form action="/#">
+                        <p>Por favor selecione uma linguagem de marcação/programação favorita:</p>
+                      <input type="radio" id="html" name="ling-favorita" value="HTML">
+                      <label for="html">HTML</label><br>
+                      <input type="radio" id="css" name="ling-favorita" value="CSS">
+                      <label for="css">CSS</label><br>
+                      <input type="radio" id="javascript" name="ling-favorita" value="JavaScript">
+                      <label for="javascript">JavaScript</label>
+                   
+                        <br>  
+                   
+                        <p>Por favor selecione a sua idade:</p>
+                        <input type="radio" id="idade1" name="age" value="30">
+                        <label for="idade1">13 - 30</label><br>
+                        <input type="radio" id="idade2" name="age" value="60">
+                        <label for="idade2">31 - 60</label><br>  
+                        <input type="radio" id="idade3" name="age" value="100">
+                        <label for="idade3">61 - 90</label><br><br>
+                        <input type="submit" value="Enviar">
+                    </form><hr/>
 
-       <br />
-  
-            <form>
-                Data de Nascimento
-                <input type="date" name="nasc" placeholder="dd/mm/aaaa"><br /><br />
-                 <button type="submit">Enviar</button>
-             </form>
-            </color>
-   </fieldset>
+                    <p>Opção usando um input tipo <b>PASSWORD</b> (Senha)...</p>
 
-      <br />
-   <!--FORMULÁRIO INATIVO-->
+                    <div>
+                        <form>
+                            Senha: <imput type="password" name="senha">
+                                Confirmação <input type="password" name="confirmacao" required>
+                                <small>Digite alguns numeros para ver..</small>
+                        </form><hr/>
+                    </div>
+                   
+                    <p>Opção usando um input tipo <b>COLOR</b> (Cores)...</p>
 
-   <fieldset>
-         <legend>Outro tipo de FORMULÁRIO - <color id="colorC">C</color> - INATIVO sendo que não dá pra escrever dentro dele:</legend><br />
-         <color id="colorC">
-            <form>
-                Primeiro Nome: <input type="text" name="name" id="txtnome" disabled=""><br /><br />
-                 Sobrenome: <input type="text" name="sobrename" id="txtsobrenome" disabled="">
-            </form>
+                    <form>
+                    Selecione uma cor:
+                    <input type="color" name="cor" value="#ffffff">
+                    <input type="color" name="cor" value="#ffe6e6">
+                    <input type="color" name="cor" value="#ffcccc">
+                    <input type="color" name="cor" value="#ffb3b3">
+                    <input type="color" name="cor" value="#ff9999">
+                    <input type="color" name="cor" value="#ff8080">
+                    <input type="color" name="cor" value="#ff6666">
+                    <input type="color" name="cor" value="#ff3333">
+                    <input type="color" name="cor" value="#ff1a1a">
+                    <input type="color" name="cor" value="#ff0000">
+                    </form><hr/>
 
-      <br />
+                    <p>Opção usando um input tipo <b>NUMBER</b> (Número)...</p>
 
-      <br />
+                    <form>
+                        Ano de Nascimeto:
+                        <small>Selecione o ano de seu nascimento, obs: vc pode digitar tbm se quiser.</small>
+                        <input type="number" name="anoNascimeto" required min="1910" max="2026" step="1">          
+                </form><hr />
 
-        <form>
-            E-mail:
-            <input type="email" required multiple disabled="">
-         </form>
+                    <form>
+                        <p>Opção usando um input tipo <b>RANGE</b> (Barra)...</p>
+                        <input type="range" name="barra" required min="0" max="5000" step="100">
+                    </form><hr />
 
-      <br />
+                    <form>
+                        <p>Opção usando um input tipo <b>TIME</b> (Hora)...</p>
+                        <input type="time" name="horaConsulta">
+                    </form><hr />
+                </div>
+     </main>
+     <!--Box Model INICIO-->
+    <div class="ti">
+        <h2>Box Model</h2>
+     </div>
 
-       <form>
-           Data de Nascimento
-           <input type="date" name="nasc" placeholder="dd/mm/aaaa" disabled=""><br /><br />
-           <button type="submit" disabled="">Enviar</button>
-         </form>
-        </color>
-     </fieldset>
+    <div class="boxmodel">
+        Primeiro Nome:  <input type="text" name="name" id="txtnome"><br /><br />
+        Sobrenome:      <input type="text" name="sobrename" id="txtsobrenome"><br><br>
+        <!--<input type="submit" value="Enviar">-->
+        <button type="submit">Enviar</button>
+    </div><hr />
+    <!--Box Model FINAL-->
 
-     <div>
-        <figure>
-            <img src="https://i.postimg.cc/K8hTkt6B/estudantes.jpg" alt="Trulli" style="width:100%"> <br>
-            <figcaption>Fig.1 Figura de Estudantes</figcaption>
-        </figure>
 
-    </div>
 
-    <br>
+        <script defer src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    </div>    
 
-    <div>
-
-        Opção usando um input tipo CHECKBOX (Caixa de checagem)... <br>
-        <form>
-            <br>
-            <input type="checkbox" name="Resposta" value="Voce tem um carro?">Voce tem um carro?
-            <br>
-            <input type="checkbox" name="Resposta" value="Voce tem uma bicicleta?">Voce tem uma bicicleta?
-            <br>
-            <input type="checkbox" name="Resposta" value="Voce tem uma moto?">Voce tem uma moto?
-
-        </form>
-    
-    </div>
-
-    <br>
-
-    <div>
-
-        Opção usando um input tipo RADIO (Botão tipo radio)... 
-        <form>
-            <br>
-            Por favor selecione uma linguagem de marcação/programação favorita:<br>
-            <br>
-            <input type="radio" name="Linguagem" value="HTML">HTML
-            <br>
-            <input type="radio" name="Linguagem" value="CSS">CSS
-            <br>
-            <input type="radio" name="Linguagem" value="JavaScript">JavaScript<brdd>
-            <br>
-
-        </form>
-
-        <form>
-            Por favor selecione sua Idade<br>
-            <br>
-
-            <input type="radio" name="Idade" value="13 - 30">13 - 30
-            <br>
-            <input type="radio" name="Idade" value="31 - 60">31 - 60
-            <br>
-            <input type="radio" name="Idade" value="61 - 90">61 - 90<br>
-            <br>
-        </form>
-        
-        <input type="submit" value=" Enviar"/>
-
-    </div>
-
-    <br>
-
-    <div>
-        Opção usando um input tipo PASSWORD (Senha)...
-        
-        <input type="password" name="confirmacao" required="">
-
-    </div>
-
-    <br>
-
-    <div>
-
-        Opção usando um input tipo COLOR (Cores)...<br>
-        <br>
-        <input type="color" name="cor" value="#ffffff">
-        <input type="color" name="cor" value="#ffe6e6">
-        <input type="color" name="cor" value="#ffcccc">
-        <input type="color" name="cor" value="#ffb3b3">
-        <input type="color" name="cor" value="#ff9999">
-        <input type="color" name="cor" value="#ff8080">
-        <input type="color" name="cor" value="#ff6666">
-        <input type="color" name="cor" value="#ff4d4d">
-        <input type="color" name="cor" value="#ff3333">
-        <input type="color" name="cor" value="#ff1a1a">
-
-    </div>
-
-    <br>
-
-    <div>
-
-        Opção usando um input tipo NUMBER (Número)... <br>
-        <br>
-        Data de Nascimeto <br>
-        <input type="number" name="anoNascimeto" required="" min="1910" max="2026" step="1">
-
-    </div>
-
-    <br>
-
-    <div>
-
-        Input Range
-        <form>
-
-            <input type="range" name="barra"    required
-                    min="0"     max="5000"      step="100">    
-
-        </form>
-
-    </div>
-
-    <br>
-
-    <div>
-        Relogio
-        <form>
-            <input type="time"  name="horario" required>
-        </form>
-
-    </div>
-    <!--
-    <footer>
-        <p>Autor: Mirella Sofia</p>
-        <p><a href="sofiasmirella@gmail.com">praescola32@gmail.com</a></p>
-    </footer>
-    -->
-
-    <div class="class">
-        <form>
-            Primeiro Nome: <input type="text" name="name" id="txtnome"><br /><br />
-            Sobrenome: <input type="text" name="sobrename" id="txtsobrenome">
-            <button type="submit">Enviar</button>
-         </form>
-
-    </div>
-</body>
-<!--
-        a
-        a
-    -->
-    
-    <br> <br>
 
     <div class="outro">
+    <h2>Formulário De Contato</h2>
         <form>
-            <p> Primeiro Nome: </p> <input type="text" name="name" id="txtnome">
-            <p> Sobrenome: </p> <input type="text" name="sobrename" id="txtsobrenome">
-            <p> Comentário: </p> <textarea rows="5" cols="30"></textarea> <button type="submit">Enviar</button>
+            <p> Nome: </p> <input type="text" name="name" id="txtnome">
+            <p> Email: </p> <input type="text" name="sobrename" id="txtsobrenome">
+            <p> Mensagem: </p> <textarea rows="5" cols="30"></textarea> <button type="submit">Enviar</button>
         </form>
     </div>
+
+
+                <!--BOX SOFISTICADO INICIO-->
+                <p>Exemplo - <b>2</b>: Tipo de <b>BOX MODEL</b> (Mais um modelo de caixa)...</p>
+                <p class="vermelho">Preste atenção nestes <u>box model</u> - voce vai precisar dele.</p>
+                <header>
+                    <h1>Layout com Box Model</h1>
+                </header>
+                <div class="container">
+                    <div class="box">
+                        <h2>Caixa 1</h2>
+                        <p>Phasellus condimentum odio et sem tristique, eget ultrices ligula tincidunt.</p>
+                    </div>
+                    <div class="box">
+                        <h2>Caixa 2</h2>
+                        <p>Phasellus condimentum odio et sem tristique, eget ultrices ligula tincidunt.</p>
+                    </div>
+                    <div class="box">
+                        <h2>Caixa 3</h2>
+                        <p>Phasellus condimentum odio et sem tristique, eget ultrices ligula tincidunt.</p>
+                    </div>
+                    <div class="box">
+                        <h2>Caixa 4</h2>
+                        <p>Phasellus condimentum odio et sem tristique, eget ultrices ligula tincidunt.</p>
+                    </div>
+                    <div class="box">
+                        <h2>Caixa 5</h2>
+                        <p>Phasellus condimentum odio et sem tristique, eget ultrices ligula tincidunt.</p>
+                    </div>
+                    <div class="box">
+                        <h2>Caixa 6</h2>
+                        <p>Phasellus condimentum odio et sem tristique, eget ultrices ligula tincidunt.</p>
+                    </div>
+                </div><hr />
+                <!--BOX SOFISTICADO FIM-->
+                       
+                <footer class="rodapeBox">
+                    <p>&copy; 2024 -  Exemplo 2, de um Box Model sofisticado.</p>
+                </footer><br/>
+               
+
+
+
+
+<!--
+        <footer class="rodape">
+                <p>Autor: Mirella Sofia Semião</p>
+                <p><a href="mailto:Mirella Sofia Semião">semiaomirella10@gmail.com</a></p>
+        </footer>
+-->
 </body>
+</html>
